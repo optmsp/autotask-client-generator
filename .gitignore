@@ -1,4 +1,6 @@
+.cache/
 .phpdoc/
 vendor/
 .DS_Store
 .env
+composer.lock

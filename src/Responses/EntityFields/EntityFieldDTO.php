@@ -40,6 +40,10 @@ class EntityFieldDTO extends DataTransferObject
                 case 'boolean':
                     $parameters['dataType'] = 'bool';
                     break;
+                case 'byte[]':
+                    $parameters['dataType'] = 'null';
+                    $parameters['required'] = false;
+                    break;
                 case 'long':
                 case 'short':
                     $parameters['dataType'] = 'null';
